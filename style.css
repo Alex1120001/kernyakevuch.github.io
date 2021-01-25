@@ -1,0 +1,488 @@
+html, body{
+	margin: 0;
+	padding: 0;
+	height: 100%;
+	font-family: 'Montserrat', sans-serif;
+}
+
+.wrap{
+	background-image: url(roof-boy2.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+	height: 900px;
+	max-width: 1900px;
+	margin: auto;
+}
+.top-header{
+	width: 100%;
+	height: 95px;
+	background: rgba(0, 0, 0, 0.4); 
+}
+.logo{
+	width: 200px;
+	float: left;
+}
+.menu{
+	float: right;
+}
+
+.text{
+	width: 100%;
+	text-align: center;
+	margin-top: 250px;
+	font-size: 72px;
+	font-family: 'Montserrat', sans-serif;
+}
+.btn{
+	width: 200px;
+    background: #2ebaee;
+    margin: auto;
+    margin-top: 50px;
+    text-align: center;
+    border-radius: 25px;
+    height: 50px;
+    font-size: 25px;
+    line-height: 50px;
+    color: white;
+    letter-spacing: 2px;
+    font-family: 'Montserrat', sans-serif;
+}
+.text-bott{
+	font-size: 34px;
+	font-family: 'Montserrat', sans-serif;
+    color: white;
+    text-align: center;
+    margin-top: 50px;
+}
+a{
+	text-decoration: none;
+}
+.wrap2{
+	max-width: 1900px;
+	margin: auto;
+}
+.content{
+	width: 85%;
+	margin: auto;
+}
+.titl{
+	text-align: center;
+	font-size: 48px;
+	margin-top: 50px;
+}
+#line{
+	width: 90%;
+	margin-top: 50px;
+	margin-bottom: 50px;
+}
+.card{
+	width: 90%;
+	display: grid;
+	grid-template-columns: 25% 25% 25% 25%;
+	margin: auto;
+	text-align: center;
+}
+#text-card{
+	text-align: left;
+	font-weight: bold; 
+	color: #242424;
+	font-size: 24px;
+	margin-bottom: 34px;
+}
+#text-card-titl{
+	text-align: left;
+	font-size: 16px;
+	color: #878787;
+}
+#phot{
+	margin-bottom: 15px;
+}
+.ph{
+	width: 1px;
+}
+.wrap3, .wrap4, .wrap5, .wrap6{
+	max-width: 1900px;
+	margin: auto;
+}
+#ph-cont{
+	max-width: 100%;
+	margin-top: 200px;
+}
+.text-content{
+	margin-top: 100px;
+}
+#text-content{
+	text-align: center;
+	font-size: 35px;
+}
+#text-center{
+	width: 150px;
+    background: #2ebaee;
+    margin: auto;
+    text-align: center;
+    height: 50px;
+    line-height: 50px;
+    border-radius: 25px;
+    font-size: 18px;
+}
+.fotorama{
+	min-width: 1px;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    margin-top: 150px;
+}
+#c{
+	text-align: center;
+}
+.wrap6{
+	max-width: 1900px;
+	background-image: url(house-protect.jpg);
+	min-height: 724px;
+	margin-top: 150px;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+.contact-form{
+	max-width: 1200px;
+	margin: auto;
+	display: flex;
+}
+.contact{
+	width: 50%;
+	float: left;
+}
+.title-cont{
+	color: #fff;
+    font-size: 60px;
+    font-weight: bold;
+    margin-top: 150px;
+}
+#adress{
+	color: #878787;
+    font-size: 18px;
+    margin-top: 30px;
+    margin-top: -25px;
+}
+#em{
+	color: #878787;
+    font-size: 32px;
+    margin: 24px 0 0 0;
+}
+#social-1{
+	background: #55acee;
+    padding: 20px 24px;
+    border-radius: 30px;
+}
+#social-2{
+	background: #3b5998;
+    padding: 20px 18px;
+    border-radius: 30px;
+}
+#social-3{
+	background: #cc2127;
+    padding: 20px 22px;
+    border-radius: 30px;
+}
+#social-4{
+	background: #dd4b39;
+    padding: 20px 18px;
+    border-radius: 30px;
+}
+#social-5{
+	background: #e23047;
+    padding: 20px 18px;
+    border-radius: 30px;
+}
+ul{
+	padding: 0px;
+	padding-right: 15px;
+}
+.social{
+	display: inline-flex;
+}
+
+#butn{
+	width: 100px;
+	font-size: 20px;
+	margin: auto;
+	height: 50px;
+	line-height: 50px;
+	color: white;
+	background: #2ebaee;
+	border-radius: 30px;
+	text-align: center;
+}
+.overlay {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: rgb(0,0,0);
+  background-color: rgba(0,0,0, 0.9);
+  overflow-x: hidden;
+  transition: 0.5s;
+}
+
+.overlay-content {
+  position: relative;
+  top: 25%;
+  width: 100%;
+  text-align: center;
+  margin-top: 30px;
+}
+
+.overlay a {
+  padding: 8px;
+  text-decoration: none;
+  font-size: 36px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+}
+
+.overlay a:hover, .overlay a:focus {
+  color: #f1f1f1;
+}
+
+.overlay .closebtn {
+  position: absolute;
+  top: 20px;
+  right: 45px;
+  font-size: 60px;
+}
+
+.wrap, .wrap2, .wrap3, .wrap4, .wrap5, .wrap6{
+	overflow: hidden;
+}  
+.form-contact{
+	max-width: 1000px;
+    margin: auto;
+    margin-top: 150px; 
+}
+.contact-title{
+	color: white;
+    font-size: 60px;
+    font-weight: bold
+}
+#contact-title{
+	color: #878787;
+	font-size: 18px;
+	margin-top: 30px;
+}
+#adress{
+	margin-top: 30px;
+	color: #878787;
+	font-size: 32px;
+}
+#color{
+	color: #2ebaee;
+}
+#ulp{
+	padding:0;
+	margin: 0;
+	margin-left: 30px;
+}
+#ulp1{
+	padding:0;
+	margin: 0;
+}
+#f1{
+	background: #55acee;
+    padding: 20px 24px;
+    border-radius: 30px;
+}
+#f2{
+	background: #3b5998;
+    padding: 20px 18px;
+    border-radius: 30px;
+}
+#f3{
+	background: #cc2127;
+    padding: 20px 22px;
+    border-radius: 30px;
+}
+#f4{
+	background: #dd4b39;
+    padding: 20px 18px;
+    border-radius: 30px;
+}
+
+#f5{
+	background: #e23047;
+    padding: 20px 18px;
+    border-radius: 30px;
+}
+.form{
+	width: 50%;
+	float: right;
+	margin: 0;
+}
+#lab, #lab1{
+	height:60px;
+    width: 100%;
+    background: none;
+    color: white;
+    font-size: 18px;
+    border: 1px solid #535353;
+}
+#lab1{
+	margin-top: 20px;
+}
+#lab2{
+	margin-top: 20px;
+    height: 140px;
+    color: white;
+    font-size: 18px;
+    width: 100%;
+    background: none;
+    border: 1px solid #535353;
+}
+#fbtn{
+	height: 50px;
+    width: 150px;
+    border: none;
+    border-radius: 25px;
+    font-size: 18px;
+    color: white;
+    background: #2ebaee;
+}
+
+
+
+
+
+
+
+@media screen and (max-height: 450px) {
+  .overlay a {font-size: 20px}
+  .overlay .closebtn {
+  font-size: 40px;
+  top: 15px;
+  right: 35px;
+  }
+}
+@media screen and (max-width: 1100px){
+	.text {
+		margin-top: 200px;
+        font-size: 70px;
+    }
+    .btn{
+    	margin-top: 50px;
+    }
+    #lab, #lab1, #lab2{
+    	width: 90%;
+    }
+    .contact-title {
+		font-size: 35px;
+        text-align: center;
+	}
+	#contact-title {
+		font-size: 14px;
+	}
+	#adress {
+		font-size: 23px;
+	}
+  
+}
+
+@media screen and (max-width: 800px){
+	.card {
+        width: 90%;
+        display: grid;
+        grid-template-columns: 50% 50%;
+        margin: auto;
+        text-align: center;
+    }
+    .text{
+    	font-size: 40px;
+    	margin-top: 200px;
+    }
+    .btn{
+    	margin-top: 50px;
+    }
+    .titl{
+    	font-size: 36px;
+    }
+    .wrap6{
+		margin-top: 50px;
+	}
+	.contact{
+		float: none;
+		width: 100%;
+	}
+	.contact-title {
+		font-size: 35px;
+        text-align: center;
+	}
+	#contact-title {
+		font-size: 14px;
+	}
+	#adress {
+		font-size: 23px;
+	}
+	.form{
+		width: 85%;
+        float: none;
+        margin: auto;
+        margin-top: 20px;
+	}
+	#lab, #lab1, #lab2{
+		border: 1px solid #736161;
+		border-radius: 5px;
+		width: 100%;
+	}
+	#text-content{
+		font-size: 30px;
+	}
+}
+
+
+@media screen and (max-width: 500px){
+	html, body{
+		width: 100%;
+	}
+	.text{
+		font-size: 30px;
+		margin-top: 125px;
+	}
+	.wrap{
+		height: 750px;
+	}
+	.btn{
+		margin-top: 62px;
+	}
+	.text-bott{
+		font-size: 24px;
+	}
+	.titl{
+		font-size: 20px;
+	}
+	#line{
+		width: 100%;
+	}
+	.content{
+		width: 100%;
+	}
+	.card{
+		grid-template-columns: 50% 50%;
+	}
+	#text-card {
+		font-size: 14px;
+	}
+	#text-card-titl {
+		font-size: 12px;
+	}
+	.wrap3{
+		margin-top: -100px;
+	}
+	#text-content {
+		font-size: 20px;
+	}
+	.wrap5{
+		margin-top: -120px;
+	}
+	
+}
